@@ -4,36 +4,34 @@ import Link from "next/link";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
 
-import { IoMdHeartEmpty } from "react-icons/io";
-import { BsCart } from "react-icons/bs";
 import { RiMenu4Line } from "react-icons/ri";
 import { VscChromeClose } from "react-icons/vsc";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);
-  const [show, setShow] = useState("translate-y-0");
-  const [lastScrollY, setLastScrollY] = useState(0);
+  // const [show, setShow] = useState("translate-y-0");
+  // const [lastScrollY, setLastScrollY] = useState(0);
 
-  const controlNavBar = () => {
-    window.scrollY > 200
-      ? window.scrollY > lastScrollY && !mobileMenu
-        ? setShow("-translate-y-[80px]")
-        : setShow("shadow-sm")
-      : setShow("translate-y-0");
-    setLastScrollY(window.scrollY);
-  };
+  // const controlNavBar = () => {
+  //   window.scrollY > 200
+  //     ? window.scrollY > lastScrollY && !mobileMenu
+  //       ? setShow("-translate-y-[80px]")
+  //       : setShow("shadow-sm")
+  //     : setShow("translate-y-0");
+  //   setLastScrollY(window.scrollY);
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavBar);
-    return () => {
-      window.removeEventListener("scroll", controlNavBar);
-    };
-  }, [lastScrollY]);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", controlNavBar);
+  //   return () => {
+  //     window.removeEventListener("scroll", controlNavBar);
+  //   };
+  // }, [lastScrollY]);
 
   return (
     <header
-      className={`w-full h-[12svh] bg-white shadow-md flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
+      className={`w-full h-[12svh] bg-white shadow-md flex items-center justify-between z-20 `}
     >
       <div className=" w-full px-8 lg:px-20 flex justify-between items-center">
         <Link href={"/"} className="flex">

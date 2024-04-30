@@ -1,5 +1,5 @@
-import AllProducts from "@/components/AllProducts/AllProducts";
-import HomeHeroSlider from "@/components/HeroAndBanners/HomeHeroSlider";
+import AllProducts from "../components/ProductComp/AllProducts";
+import HomeHeroSlider from "../components/HeroAndBanners/HomeHeroSlider";
 
 export default function Home() {
   return (

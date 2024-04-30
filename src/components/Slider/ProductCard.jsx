@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <>
       <Link
-        href={"/listing/listing-name"}
+        href={"/product/product_name"}
         className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
       >
         <div className="aspect-[3/4]">
@@ -19,12 +19,14 @@ const Card = () => {
           <h2 className="text-sm line-clamp-2">
             Black crocs leather straps premium quality
           </h2>
-          <div className="flex items-center justify-between">
-            <p className="mr-2 text-base lg:text-lg  font-semibold">₹100</p>
-            <p className="text-base font-medium text-gray-700 line-through">
+          <div className="flex items-center justify-start">
+            <p className="mr-2 text-lg lg:text-xl text-green-600 font-semibold">
+              ₹100
+            </p>
+            <p className="text-sm font-medium text-red-300 line-through">
               ₹200
             </p>
-            <p className="ml-auto text-xs lg:text-sm font-medium text-green-500">
+            <p className="hidden lg:block ml-auto text-xs lg:text-sm font-medium text-green-500">
               New Deal
             </p>
           </div>

@@ -1,13 +1,13 @@
 import React from "react";
-import Card from "../../../components/Slider/ProductCard";
+import Card from "../Slider/ProductCard";
 
-const Category = () => {
+const RelatedProducts = () => {
   return (
-    <div className="p-5 md:p-10 lg:p-20">
+    <div className="py-10 lg:py-28">
       <div>
         <h3 className="md:text-xl">Check out !</h3>
         <h2 className="text-3xl md:text-5xl font-medium text-primary">
-          Category Name
+          Related Products
         </h2>
       </div>
       {/* ---------------- */}
@@ -22,4 +22,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default RelatedProducts;
