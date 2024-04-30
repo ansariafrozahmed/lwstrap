@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextTopLoader color="#784522" />
+        <NextTopLoader color="#784522" showSpinner={false} />
         <AnnouncementBar />
         <Header />
         {children}

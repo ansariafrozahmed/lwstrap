@@ -14,14 +14,14 @@ const ProductImageCarousel = () => {
           thumbWidth={60}
           className="productCarousel"
         >
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
 
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
-          <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
+          <img src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1" />
         </Carousel>
       </div>
     </>

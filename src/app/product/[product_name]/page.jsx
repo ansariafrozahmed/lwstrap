@@ -6,8 +6,8 @@ import RelatedProducts from "../../../components/ProductComp/RelatedProducts";
 const ProductPage = () => {
   return (
     <>
-      <div className="w-full py-10 px-5 md:py-10 md:px-12 lg:py-20 lg:px-28">
-        <div className="flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]">
+      <div className="w-full py-10 px-5 md:py-10 md:px-12 lg:py-10 lg:px-28">
+        <div className="flex flex-col lg:flex-row md:px-10 gap-[15px] lg:gap-[100px]">
           {/* left col start */}
           <div className="w-full md:w-auto flex-[1.5] max-w-[500px] lg:max-w-full mx-auto lg:mx-0">
             <ProductImageCarousel />

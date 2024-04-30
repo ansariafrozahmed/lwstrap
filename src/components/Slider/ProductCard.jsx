@@ -11,12 +11,12 @@ const Card = () => {
         <div className="aspect-[3/4]">
           <img
             className="object-cover object-center h-full w-full"
-            src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5fcd7a50/images/Titan/Catalog/1001201824S_1.jpg?sw=800&sh=800"
+            src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1"
             alt=""
           />
         </div>
-        <div className="p-4 text-black/[0.9] space-y-1">
-          <h2 className="text-sm line-clamp-2">
+        <div className="p-2 text-black/[0.9] space-y-1">
+          <h2 className="text-sm">
             Black crocs leather straps premium quality
           </h2>
           <div className="flex items-center justify-start">
