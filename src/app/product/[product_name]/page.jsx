@@ -18,7 +18,7 @@ const ProductPage = () => {
 
           <div className="flex-[1] py-3">
             {/* Product title */}
-            <div className="text-[34px] font-semibold mb-2 text-primary capitalize leading-tight">
+            <div className="text-[28px] lg:text-[34px] font-semibold mb-2 text-primary capitalize leading-tight">
               Black crocs leather straps premium quality
             </div>
             {/* Product title end */}
@@ -31,8 +31,10 @@ const ProductPage = () => {
 
             {/* Price */}
             <div className="flex gap-2 items-center">
-              <span className="text-3xl font-bold text-green-600">₹ 100</span>
-              <span className="text-base font-medium text-red-300 line-through">
+              <span className="text-4xl font-sans font-semibold text-primary">
+                ₹ 100
+              </span>
+              <span className="text-base font-medium text-gray-600 line-through">
                 ₹ 200
               </span>
             </div>
@@ -53,21 +55,27 @@ const ProductPage = () => {
               {/* HEADING END */}
 
               {/* SIZE START */}
-              <div id="sizesGrid" className="grid grid-cols-3 gap-2">
+              <div id="sizesGrid" className="grid grid-cols-4 gap-2">
                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                  Uk 6
-                </div>
-                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                  Uk 7
+                  12 MM
                 </div>
                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                  Uk 8
+                  14 MM
                 </div>
-                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-not-allowed bg-black/[0.5] opacity-50">
-                  Uk 11
+                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                  16 MM
                 </div>
-                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-not-allowed bg-black/[0.5] opacity-50">
-                  Uk 12
+                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                  18 MM
+                </div>
+                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                  20 MM
+                </div>
+                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                  22 MM
+                </div>
+                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                  24 MM
                 </div>
               </div>
 
@@ -83,7 +91,7 @@ const ProductPage = () => {
             {/* PRODUCT SIZE RANGE End */}
 
             {/* ADD TO CART BUTTON START */}
-            <button className="w-full py-4 rounded-full bg-primary text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75">
+            <button className="w-full py-4 rounded-full bg-gray-900 text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75">
               Buy Now
             </button>
 

@@ -6,28 +6,30 @@ const Card = () => {
     <>
       <Link
         href={"/product/product_name"}
-        className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
+        className="overflow-hidden bg-white cursor-pointer"
       >
-        <div className="aspect-[3/4]">
+        <div className="aspect-[3/4] overflow-hidden">
           <img
-            className="object-cover object-center h-full w-full"
-            src="https://i0.wp.com/ajwa.in/wp-content/uploads/2022/04/blue-stag-skin-strap-by-ajwain.jpg?fit=610%2C763&ssl=1"
+            className="hover:scale-105 object-cover duration-200 object-center h-full w-full"
+            src="/strap.webp"
             alt=""
           />
         </div>
-        <div className="p-2 text-black/[0.9] space-y-1">
+        <div className="p-2 text-black/[0.9] space-y-2">
           <h2 className="text-sm">
             Black crocs leather straps premium quality
           </h2>
+          <div>
+            <span className="hover:bg-[#522f17]/90 bg-primary px-3 py-1.5 text-white text-xs font-sans">
+              Select Size
+            </span>
+          </div>
           <div className="flex items-center justify-start">
-            <p className="mr-2 text-lg lg:text-xl text-green-600 font-semibold">
+            <p className="mr-2 text-lg font-sans lg:text-2xl text-primary font-bold">
               ₹100
             </p>
-            <p className="text-sm font-medium text-red-300 line-through">
+            <p className="font-sans text-sm font-medium text-gray-600 line-through">
               ₹200
-            </p>
-            <p className="hidden lg:block ml-auto text-xs lg:text-sm font-medium text-green-500">
-              New Deal
             </p>
           </div>
         </div>

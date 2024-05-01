@@ -11,10 +11,10 @@ const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
   ];
 
   const subMenuData = [
-    { id: 1, name: "Crocs" },
-    { id: 2, name: "Sue" },
-    { id: 3, name: "Racer" },
-    { id: 4, name: "Retro" },
+    { id: 1, name: "Crocs", url: "/category/crocs" },
+    { id: 2, name: "Sue", url: "/category/sue" },
+    { id: 3, name: "Racer", url: "/category/racer" },
+    { id: 4, name: "Retro", url: "/category/retro" },
   ];
   return (
     <>
@@ -38,7 +38,7 @@ const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
                         return (
                           <Link
                             key={submenu.id}
-                            href={"/"}
+                            href={submenu?.url}
                             onClick={() => {
                               setShowCatMenu(false);
                               setMobileMenu(false);

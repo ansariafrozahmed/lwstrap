@@ -1,10 +1,12 @@
+import CategorySection from "../components/Category/CategorySection";
+import HeroBanner from "../components/HeroAndBanners/HeroBanner";
 import AllProducts from "../components/ProductComp/AllProducts";
-import HomeHeroSlider from "../components/HeroAndBanners/HomeHeroSlider";
 
 export default function Home() {
   return (
     <main>
-      <HomeHeroSlider />
+      <HeroBanner />
+      <CategorySection />
       <AllProducts />
     </main>
   );

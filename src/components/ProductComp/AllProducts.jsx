@@ -3,7 +3,7 @@ import Card from "../Slider/ProductCard";
 
 const AllProducts = () => {
   return (
-    <div className="p-5 md:p-8 lg:p-12">
+    <div className="py-5 px-3 md:p-8 lg:p-12">
       <div className="">
         <h3 className="md:text-xl">Check out !</h3>
         <h2 className="text-3xl md:text-5xl font-medium text-primary">

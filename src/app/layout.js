@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/HeaderFooter/Header";
+import Footer from "../components/HeaderFooter/Footer";
 import AnnouncementBar from "../components/OtherComps/AnnouncementBar";
 import NextTopLoader from "nextjs-toploader";
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <AnnouncementBar />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
