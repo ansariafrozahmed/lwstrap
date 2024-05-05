@@ -38,9 +38,7 @@ const Header = () => {
           <img src="/logo.png" className="h-[12svh]" alt="" />
           {/* <h1 className="font-[500] text-[30px] font-great-vibes">Logo</h1> */}
         </Link>
-
         <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu} />
-
         {mobileMenu && (
           <MenuMobile
             showCatMenu={showCatMenu}
@@ -48,7 +46,7 @@ const Header = () => {
             setMobileMenu={setMobileMenu}
           />
         )}
-
+        {/* <div>Search</div> */}
         <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex md:hidden justify-center items-center cursor-pointer relative -mr-2">
           {mobileMenu ? (
             <VscChromeClose

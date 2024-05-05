@@ -7,7 +7,7 @@ const Menu = ({ showCatMenu, setShowCatMenu }) => {
     { id: 1, name: "Home", url: "/" },
     { id: 3, name: "Shop", subMenu: true },
     { id: 2, name: "Trending", url: "/trending" },
-    { id: 2, name: "About", url: "/about" },
+    // { id: 2, name: "About", url: "/about" },
     { id: 4, name: "Contact", url: "/contact" },
   ];
 

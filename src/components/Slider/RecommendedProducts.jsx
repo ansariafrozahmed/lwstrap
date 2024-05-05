@@ -6,16 +6,15 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import { Pagination } from "swiper/modules";
 import "swiper/css/pagination";
-import Link from "next/link";
 import Card from "./ProductCard";
 
-const Slider = () => {
+const RecommendedProducts = () => {
   return (
-    <div className="py-10 lg:py-20 mx-5 lg:mx-14">
+    <div className="py-10 px-5 lg:px-14">
       <div className="flex items-center justify-between leading-none font-SecondaryFont">
         <div>
           <h3 className="md:text-xl">Check out !</h3>
-          <h2 className="text-3xl md:text-5xl">New Arrivals</h2>
+          <h2 className="text-3xl md:text-5xl">Recommended Products</h2>
         </div>
       </div>
       <div>
@@ -68,4 +67,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default RecommendedProducts;
